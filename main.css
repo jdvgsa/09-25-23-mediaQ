@@ -35,6 +35,8 @@ body {
   font-size: 20px;
   border: 2rem;
   line-height: 1.5;
+  background-color: rgba(92, 7, 63, 0.226);
+  color:rgba(222, 184, 135, 0.836);
   
 }
 
@@ -119,4 +121,26 @@ background-color: rgba(0, 0, 255, 0.664);
 nav ul {
   display: flex;
 }
+
+
+}
+
+@media (max-width: 800px) {
+  body {background-color: rgba(0, 0, 0, 0.849);
+  color: rgba(245, 245, 220, 0.781);
+  font-size: 17px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  nav ul {
+    background-color: rgba(5, 87, 59, 0.712);
+  }
+}
+
+@media (max-width: 800px) {
+  nav a {
+    color:rgba(224, 7, 7, 0.822)
+  }
 }
